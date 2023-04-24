@@ -299,7 +299,7 @@ def main(page: ft.Page):
     )
 
     ### ----------- Mian View ---------- ###
-    main_view_search_bar = ft.TextField(hint_text="請輸入書名，繁簡均支持~", expand=0,autofocus=True)
+    main_view_search_bar = ft.TextField(hint_text="請輸入書名，繁簡均支持~", expand=0,autofocus=True,filled=True)
     main_view_search_button = ft.FloatingActionButton(
         icon=ft.icons.SEARCH_OUTLINED, text="搜索", on_click=main_view_show_search_results
     )

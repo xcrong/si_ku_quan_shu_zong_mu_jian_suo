@@ -1,0 +1,6 @@
+.venv
+build
+dist
+*.spec
+.fleet
+.vscode
